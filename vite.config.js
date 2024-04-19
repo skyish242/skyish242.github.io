@@ -3,7 +3,6 @@ import path from 'path';
 
 /** @type {import('vite').UserConfig} */
 const config = {
-	base:"./_app/",
 	plugins: [sveltekit()],
 	resolve: {
 		alias: {
